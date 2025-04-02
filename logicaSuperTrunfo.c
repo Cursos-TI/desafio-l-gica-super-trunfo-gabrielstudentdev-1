@@ -8,9 +8,9 @@ int main() {
 
     // Entrada de dados para a primeira carta
     printf("Digite o nome do estado da sua primeira carta: ");
-    scanf(" %[^\n]", estado1);
+    scanf(" %s", estado1);
     printf("Digite o nome da cidade da primeira carta: ");
-    scanf(" %[^\n]", cidade1);
+    scanf(" %s\n", cidade1);
     printf("Digite o código da sua primeira carta: "); 
     scanf("%s", codigo1);
     printf("Digite a população de pessoas da sua primeira carta: ");
@@ -24,9 +24,9 @@ int main() {
 
     // Entrada de dados para a segunda carta
     printf("\nDigite o nome do estado da sua segunda carta: ");
-    scanf(" %[^\n]", estado2);
+    scanf(" %s", estado2);
     printf("Digite o nome da cidade da sua segunda carta: ");
-    scanf(" %[^\n]", cidade2);
+    scanf(" %s", cidade2);
     printf("Digite o código da sua segunda carta: ");
     scanf("%s", codigo2);
     printf("Digite a população de pessoas da sua segunda carta: ");
